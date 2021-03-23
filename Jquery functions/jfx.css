@@ -1,0 +1,54 @@
+h3{
+    text-align: center;
+}
+a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    
+   
+}
+
+    .show{
+        background-color: #55cbcd;
+    }
+    .hide{
+        background-color: #ffdbcc;
+    }
+    .show, .hide{
+        display: block;
+        border: 3px dashed #ff968a;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        margin:10px;
+    }
+.hidden {
+    width: 40px;
+    height: 30px;
+}
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    display: block;
+    padding-left: 40px;  
+}
+    .left{
+        background-color: #ABDEE6;  
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border: 3px solid black;
+        display: inline-block;
+        padding: 1.3px; 
+        font-size: 12px;
+        margin: 10px;
+        color: black;
+       
+    }
+        .showImage{
+            display: block;
+            background-color: #f6eac2;
+        }
+   

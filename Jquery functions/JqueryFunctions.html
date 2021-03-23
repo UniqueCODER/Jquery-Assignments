@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jfx.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img.hidden').hide()
+            
+            $('a.slideToggle').click(function(){
+                $('img').toggle();
+            })
+            $('a.addClass').click(function(){
+                $('.addClass').css("background-color", "#FEE1E8").css("color","#FEE1E8");                
+            })
+            $('a.show').click(function(){
+                $('div.container').css("background-color", "#FEE1E8");                
+            })
+
+            $('a.hide').click(function(){
+                $('div.container').hide();                
+            })
+        });
+       
+        
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h3>JQ's</h3>
+        <a href="#" class="left addClass">Change Color!</a>
+        <a href="#" class="left">Coming Soon!</a>
+        <a href="#" class="left">Coming Soon!</a>
+        <a href="#" class="left">Coming Soon!</a>
+        <a href="#" class="left">Coming Soon!</a>
+        <a href="#" class="left">Coming Soon!</a>
+        <a href="#" class="left showImage slideToggle">Show image! <img src="jq.jpg" alt="E" class="hidden"></a>
+        <a href="#" class="hide">HIDE</a>
+        <a href="#" class="show">SHOW</a>
+    </div>
+</body>
+</html>
