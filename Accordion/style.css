@@ -1,0 +1,12 @@
+body{
+    background-color: #836953;
+    margin-top: 70px;
+}
+#accordion{
+    width: 500px;
+    margin: 0 auto;
+}
+#tabs{
+    width: 420px;
+    height: 300px;
+}
